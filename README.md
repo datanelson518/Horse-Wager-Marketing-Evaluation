@@ -198,7 +198,7 @@ Finally, we can review the features that were most influential in helping the mo
 The top two features were expected because the handle (amount of the wager) and revenue (amount earned by the operator from the wager) will be determined by the number of bets placed at that moment. The third top feature is interesting, the age of the individual who places the bet had a very strong influence on the total number of bets made as part of each wager. The rest of the features are very close in weight all being below 0.05 but it's worth noting that the next top four features are the months where the most bets were placed followed by the states of the individuals where the most bets were made.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/gb_feature_importances.png">
+  <img width="1200" height="500" src="plots/gb_feature_importances.png">
 </p>
 
 ---
