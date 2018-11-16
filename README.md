@@ -63,7 +63,7 @@ The below plot reviews the total number of bets made within each wager across ea
 The most number of bets were made in the initial month of January, when the data was collection started, and is decreasing in each proceeding month until April. We can see an increase in the number of bets made with each wager in April which tells us that something did change during this month and if we assume that all other factors were held equal we can assume that the marketing campaign is the reason for the increase in bets.
 
 <p align="center">
-  <img width="1000" height="700" src="plots/wagers_per_month.png">
+  <img width="1000" height="500" src="plots/wagers_per_month.png">
 </p>
 
 ### Wagers by Gender
