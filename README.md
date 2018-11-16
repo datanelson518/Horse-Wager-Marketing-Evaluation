@@ -86,7 +86,7 @@ So, I've confirmed that there was an increase in bets in April and specifically 
 
 From the distribution below there is a pretty wide range of individuals making bets between the ages of 18 and 69 but the bulk of the bets are being made from individuals between the age of 18 and 40.
 
-Interesting findings between the male and female age distributions is that the peaks for males contributing the most bets are between 18 and 25 while the peaks for females contributing the most to bets are between 25 and 35. Another interesting finding was that females around the age of 40 contributed almost nothing to the betcount in the first five months of the 2018 horse racing season.
+Interesting findings between the male and female age distributions is that the peaks for males contributing the most bets are between 18 and 25 while the peaks for females contributing the most bets are between 25 and 35. Another interesting finding was that females around the age of 40 contributed almost nothing to the betcount in the first five months of the 2018 horse racing season.
 
 #### Age Distributions for 2018 season
 
@@ -106,7 +106,7 @@ Let's now look at which states have the most individuals contributing to the bet
 
 ##### Interpretation
 
-What is immediately apparent is that the southern states of Kentucky and Florida have the highest contribution to the bet counts with California a close third. Also April again saw a jump in bet counts after the previous two months saw decreases in all states with the largest increase coming from Kentucky.
+What is immediately apparent is that the southern states of Kentucky and Florida have the highest contribution to the bet counts with California a close third. Also, April again saw a jump in bet counts after the previous two months saw decreases in all states with the largest increase coming from Kentucky.
 
 <p align="center">
   <img width="1200" height="500" src="plots/wagers_state.png">
@@ -139,6 +139,8 @@ The Win Place Show (WPS) bets were the bets being placed the most in the first t
 ---
 
 ## Production Modeling
+
+The highest scoring model that I was able to create was with the GradientBoostRegressor and will be my recommendation as the production model for making predictions on the total number of bets being made per each wager.
 
 I explored five different models during the modeling process with the following scores.
 
@@ -183,7 +185,7 @@ Plotting the predictions from the Gradient Boost model against the actual values
 
 ##### Interpretation
 
-The plot is showing that my model is bit overfit with a lot of the predictions showing below the line of best fit. However, when the total number of bets made on a wager are below 100 my model is predicting quite well and it's not until there are wagers with a total number of bets above 100 when we start to see the most variations in the predictions.
+The plot is showing that my model is a bit overfit with a lot of the predictions showing below the line of best fit. However, when the total number of bets made on a wager are below 100 my model is predicting quite well and it's not until there are wagers with a total number of bets above 100 when we start to see the most variations in the predictions.
 
 <p align="center">
   <img width="1200" height="500" src="plots/gb_predictions_actuals.png">
