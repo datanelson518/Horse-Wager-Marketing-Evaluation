@@ -191,7 +191,7 @@ The plot is showing that my model is a bit overfit with a lot of the predictions
   <img width="1200" height="500" src="plots/gb_predictions_actuals.png">
 </p>
 
-#### Features Importances
+#### Feature Importances
 
 Finally, we can review the features that were most influential in helping the model make predictions.
 
