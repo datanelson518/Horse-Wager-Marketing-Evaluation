@@ -63,7 +63,7 @@ The below plot reviews the total number of bets made within each wager across ea
 The most number of bets were made in the initial month of January, when the data was collection started, and is decreasing in each proceeding month until April. We can see an increase in the number of bets made with each wager in April which tells us that something did change during this month and if we assume that all other factors were held equal we can assume that the marketing campaign is the reason for the increase in bets.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_per_month.png">
+  <img width="1200" height="500" src="plots/wagers_per_month.png">
 </p>
 
 ### Wagers by Gender
@@ -75,7 +75,7 @@ After confirming, through assumptions, that the marketing campaign launched in A
 Immediately apparent is that males are making more wagers than females. It's also evident that in April something changed to increase betting activity in both females and males. Again, if we assume that all factors were held equal moving into this month then it can be assumed that the marketing campaign contributed to the increase in total bets.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_per_month_gender.png">
+  <img width="1200" height="500" src="plots/wagers_per_month_gender.png">
 </p>
 
 ### Age Distributions
@@ -91,13 +91,13 @@ Interesting findings between the male and female age distributions is that the p
 #### Age Distributions for 2018 season
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_age.png">
+  <img width="1200" height="500" src="plots/wagers_age.png">
 </p>
 
 #### Age Distributions by Gender for 2018 season
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_age_gender.png">
+  <img width="1200" height="500" src="plots/wagers_age_gender.png">
 </p>
 
 ### Wagers by State
@@ -109,7 +109,7 @@ Let's now look at which states have the most individuals contributing to the bet
 What is immediately apparent is that the southern states of Kentucky and Florida have the highest contribution to the bet counts with California a close third. Also April again saw a jump in bet counts after the previous two months saw decreases in all states with the largest increase coming from Kentucky.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_state.png">
+  <img width="1200" height="500" src="plots/wagers_state.png">
 </p>
 
 ### Wagers by Device
@@ -121,7 +121,7 @@ Let's next review how these individuals are making bets specifically if they are
 Two options were tracked when identifying how these individuals were making bets, Desktop or Mobile. After analyzing this data, from month to month, it's certainly clear that the mobile option is the preferred choice for making bets and it's also clear again that April still sees an increase in total bets from the previous two months.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_per_month_device.png">
+  <img width="1200" height="500" src="plots/wagers_per_month_device.png">
 </p>
 
 ### Wager Type per Month
@@ -133,7 +133,7 @@ Next, I will review the types of bets that are being made to determine the types
 The Win Place Show (WPS) bets were the bets being placed the most in the first three months of 2018 but moving into April we see a large increase in Exotic bets which actually ended up having more bets than the WPS. I think what we can infer from this is that the marketing campaign launched in April affected individuals betting habits towards Exotic bets and there is also evidence to back this up by looking at the month of May as we can also see that the Exotic bet count surpassed the WPS bet total.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/wagers_per_month_wagertype.png">
+  <img width="1200" height="500" src="plots/wagers_per_month_wagertype.png">
 </p>
 
 ---
@@ -170,7 +170,7 @@ The Production Model I am choosing is the Gradient Boost Regressor. This model o
 - Average: The goal was to obtain a value close to the average of true target variable in the test data:
     - Baseline Average: 7.6410
     - Model Predictions Average: 7.8165
-- R2: The goal was to obtain a larger value (or percentage of explained varince) than the baseline but not go over one
+- R2: The goal was to obtain a larger value (or percentage of explained variance) than the baseline but not go over one
     - Baseline R2: 0
     - Model R2: 0.3825
 - RMSE: The goal was to obtain a smaller value than the baseline
@@ -186,7 +186,7 @@ Plotting the predictions from the Gradient Boost model against the actual values
 The plot is showing that my model is bit overfit with a lot of the predictions showing below the line of best fit. However, when the total number of bets made on a wager are below 100 my model is predicting quite well and it's not until there are wagers with a total number of bets above 100 when we start to see the most variations in the predictions.
 
 <p align="center">
-  <img width="1000" height="500" src="plots/gb_predictions_actuals.png">
+  <img width="1200" height="500" src="plots/gb_predictions_actuals.png">
 </p>
 
 #### Features Importances
