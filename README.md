@@ -140,6 +140,10 @@ The Win Place Show (WPS) bets were the bets being placed the most in the first t
 
 ## Production Modeling
 
+Using machine learning techniques I will build a model to predict the total number of bets per wager. This will allow me to examine what features within the dataset are providing the most influence in the bet counts that we've seen in the first five months of the 2018 horse racing season. The features that are identified through this model will be my recommendations to the marketing team as the primary areas to target in future marketing campaigns.
+
+---
+
 The highest scoring model that I was able to create was with the GradientBoostRegressor and will be my recommendation as the production model for making predictions on the total number of bets being made per each wager.
 
 I explored five different models during the modeling process with the following scores.
