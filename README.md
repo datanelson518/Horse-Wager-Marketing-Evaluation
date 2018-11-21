@@ -232,4 +232,4 @@ Through the modeling process I found that specific areas were more influential i
 - Month of the horse race
 - State in which the individuals are placing wagers
 
-From the data I've analyzed the campaign should target the age of the individuals making bets along with displaying the successes of these individuals from previous months in the states where horse racing is most popular specifically where we are seeing the individuals contributing the most to the total number of bets being placed.
+From the data I've analyzed the next marketing campaign should consider targeting the age of the individuals making bets along with displaying the successes of these individuals from previous months and focus on the states where horse racing is most popular specifically where we are seeing the individuals contributing the most to the total number of bets being placed.
