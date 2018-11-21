@@ -162,7 +162,7 @@ When boosting a model the model is building multiple simple models and learning 
 
 Gradient Boosting looks at these weak models sequentially and trains on the residuals or errors in order to give more importance to the less accurate predictions and once completed uses what was learned from these predictions to combine with the strong predictions to have a better overall approximation.
 
-#### GradientBoostRegressor Metrics
+#### GradientBoostRegressor Metrics vs. Baseline Metrics
 
 | Metric    | Baseline  | GradientBoostRegressor |
 |-----------|-----------|------------------------|
